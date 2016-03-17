@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    if (System.Web.HttpContext.Current.User != null && System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
+    {
+        <h1>Panel administarcyjny</h1>
+        <h3>Witamy w LogApp!</h3>
+        <p>W zakładce <strong>Wyszukaj typ loga</strong> znajdziesz wszystkie dostępne typy logów, z poziomu tej zakładki możesz rownież przejść do wyszukiwarki rekordów.</p>
+        <p>W zakładce <strong>Dodaj nowy typ loga</strong> możesz zdefiniować nowy typ logów poprzez zdefiniowanie nagłówków, możliwe jest również podanie nazwy nowego typu w celu łatwiejszej identyfikacji</p>
+    }
+    else
+    {
+        <h1>Strona domowa</h1>
+        <h3>Witamy w LogApp!</h3>
+        <p>W zakładce <strong>Wyszukaj typ loga</strong> znajdziesz wszystkie dostępne typy logów, z poziomu tej zakładki możesz rownież przejść do wyszukiwarki rekordów.</p>
+        <p>Aby przejść do panelu administaratora kliknij <strong>Zaloguj</strong>. Domyślny login: <code>admin</code> domyślne hasło: <code>ZST_LogApp</code></p>
+    }
+}
+

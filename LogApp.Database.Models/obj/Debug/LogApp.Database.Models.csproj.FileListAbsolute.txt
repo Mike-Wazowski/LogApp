@@ -1,0 +1,14 @@
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\LogApp.Database.Models.dll.config
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\LogApp.Database.Models.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\LogApp.Database.Models.pdb
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\EntityFramework.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\Json.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\EntityFramework.xml
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\Json.pdb
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\obj\Debug\LogApp.Database.Models.csprojResolveAssemblyReference.cache
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\obj\Debug\LogApp.Database.Models.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Models\obj\Debug\LogApp.Database.Models.pdb

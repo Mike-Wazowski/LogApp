@@ -1,0 +1,15 @@
+﻿.marginBottom{
+    margin-bottom:8px;
+}
+.blackGlyph {
+    color:#000000;
+    position:relative;
+    left:-10px;
+    top:8px;
+}
+.addLogTypeSaveBtn {
+    width:83px;
+}
+.redHover:hover{
+    color:#c9302c;
+}

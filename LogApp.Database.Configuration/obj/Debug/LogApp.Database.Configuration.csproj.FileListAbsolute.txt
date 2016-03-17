@@ -1,0 +1,16 @@
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Database.Configuration.dll.config
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Database.Configuration.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Database.Configuration.pdb
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\EntityFramework.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Database.Models.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Security.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Database.Models.pdb
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\LogApp.Security.pdb
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\EntityFramework.xml
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\obj\Debug\LogApp.Database.Configuration.csprojResolveAssemblyReference.cache
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\obj\Debug\LogApp.Database.Configuration.Migrations.InitialCreate.resources
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\obj\Debug\LogApp.Database.Configuration.csproj.GenerateResource.Cache
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\obj\Debug\LogApp.Database.Configuration.dll
+C:\Users\Jarosław\Documents\Visual Studio 2015\Projects\LogApp\LogApp.Database.Configuration\obj\Debug\LogApp.Database.Configuration.pdb

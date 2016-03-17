@@ -1,0 +1,91 @@
+﻿@using LogApp.Models
+@model LogTypeViewModel
+@{
+    ViewBag.Title = "ShowLogRecord";
+}
+
+<h2>Znajdź rekordy loga</h2>
+<div class="row">
+    <div class="col-md-12">
+        <table id="informationTable" class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    @for (int i = 0; i < Model.Headers.Length; ++i)
+                    {
+                        <th>@Model.Headers[i]</th>
+                    }
+                    <th>Usuń</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+@section Styles {
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+}
+
+@section Scripts {
+    @Scripts.Render("~/plugins/dataTables")
+
+    <script type="text/javascript">
+        $.fn.dataTable.TableTools.defaults.aButtons = ["copy", "pdf", "xls"];
+
+        $(document).ready(function () {
+            var config = @Html.Raw(Json.Encode(Model.Config));
+            config.aoColumns.push({
+                "sName": "ShowRecords",
+                "bSortable": false,
+                "aTargets": [0],
+                "mData": "ShowRecords",
+                "mRender": function (data, type, full) {
+                    var id = -1;
+                    try {
+                        id = full[0];
+                    }
+                    catch (err) { }
+                    return '<button class=\"btn btn-default btn-xs\ redHover" onclick=\"removeLogRecord(' + id + ')"><span class="glyphicon glyphicon-trash"></span>&nbsp;</button>';
+                }
+            });
+            table = $('#informationTable').DataTable(config);
+        });
+
+        function removeLogRecord(id) {
+            var model = {"Id":id};
+            var url = 'http://localhost:54476/Admin/RemoveLogRecord';
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: model,
+                success: function (data) {
+                    if (data.HasError) {
+                        alert(data.ErrorMessage);
+                    }
+                    else if (data.Success) {
+                        alert(data.SuccessMessage);
+                        table.ajax.reload();
+                    }
+                }
+            });
+        }
+
+        function testAdd(){
+            var model = {"Headers":["Czas zdarzenia","Identyfikator źródła zdarzenia", "Adres IP"],"Records":[["2011-10-28", "jan", "123:34:34"],["2012-23-12", "kuba", "147/58/78"]]};
+            var url = 'http://localhost:54476/Admin/AddLogRecord';
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: model,
+                success: function (data) {
+                    if (data.HasError) {
+                        alert(data.ErrorMessage);
+                    }
+                    else if (data.Success) {
+                        alert(data.SuccessMessage);
+                    }
+                }
+            });
+        }
+    </script>
+}
